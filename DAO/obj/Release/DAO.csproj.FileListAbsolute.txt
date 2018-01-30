@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\bin\Release\DAO.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\bin\Release\DAO.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\bin\Release\DTO.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\bin\Release\MySql.Data.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\bin\Release\DTO.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\bin\Release\MySql.Data.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\obj\Release\DAO.csproj.ResolveComReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\obj\Release\DAO.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DAO\obj\Release\DAO.pdb

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CapstoneLawyers.exe" version="1.0.0.0" publicKeyToken="5bbd11b2031cfb46" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CapstoneLawyers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CapstoneLawyers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BUS.dll" size="14336">
+      <assemblyIdentity name="BUS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2a82HCo3QsX4yzCGXcmQGlbdqAvHtSEOh8Gf0WH9DnE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapstoneLawyers.exe" size="154024">
+      <assemblyIdentity name="CapstoneLawyers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R1nKJhDaevl75lHFm2Lr+VFIMB+4Qbv8iunxFmIZMJ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DAO.dll" size="36352">
+      <assemblyIdentity name="DAO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KbZFbo+dSc9yd+x5NO6JPrXce2KHHwDgGHcPT5PsvH8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DTO.dll" size="9216">
+      <assemblyIdentity name="DTO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3k3fAG1T1G2cEXcCC0RwS2aQj9Nk85APBfVeMT/ziZ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="access\Add_New.png" size="4800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KMOgoa+WrQlD/h9Q5j+LNJDzEpdJcjUFfYIzuDHdCXk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="access\Edit.png" size="3132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2tUwGVUWiYUvQHJC6KFj6KpL0oXnzssgeEJb2WFtvgs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="access\logo.png" size="13117">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4q6eFMbrDFawES1opW2WypquR4R+KIlYM+S8XruUq5E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="access\Save.png" size="3164">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6INHfe6Mhgu45c3ik5/iHJSp/2IwBFaxuZ3Bw4kNG3U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CapstoneLawyers.exe.config" size="585">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cgkt8ZXaia6rEIfwz619rPIqCki4otU18y5x1OvKHi4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon.ico" size="9886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a2TT3sE0tEVQWBYPRnGQyHUhuzJt8zWGO+JT2WwmkLE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ANHTRAN\User" issuerKeyHash="04d57fc26bf6193004428c8dbcf8f0d3e6e7dcc0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sN1PXVc0JWve+PdSY3rxJal8xsRKM7BlcChGqflh2Rs=</DigestValue></Reference></SignedInfo><SignatureValue>lykBOFwrPckvwcIh7sgvoPKSpqzAx0Z9yAU5d3fnS98HdyCxtRKXtR34UUhWEOP7zRF2P5qirvGiFQs5qAb2RHXKI+vgMXxmrMbY+kjmYx88DlQCh8I8gtJRHz3BqGAI7W5fJ7WzrGi5gN80v3hwNJBLIS8PjNvl9QqjhTuVzK4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ynVvAH/Q69mfuZ1IsXuHUq394SixNhVZxrWEg/zNTrqJIHsQH+f7wsPB15haW4ssTvgept6yqvsoc8lS82nFy8GinKDDVAiv1P7+AJLkD9AtmsC6G5fXgPOgHL7CGru0qd37Ww7zjxc5BVRprJ/0/Htm07hkT8KiwlpLkjVE+lE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1bd961f9a946287065b0334ac4c67ca925f17a6352f7f8de6b2534575d4fddb0" Description="" Url=""><as:assemblyIdentity name="CapstoneLawyers.exe" version="1.0.0.0" publicKeyToken="5bbd11b2031cfb46" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANHTRAN\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OcFqLqt+90kAs07kcZxjKaosGFU+t9asDYa5yUJSsVw=</DigestValue></Reference></SignedInfo><SignatureValue>WR/rkoQ2COt2JogbIiv4D86AOedgAnMxqTjKIgXiAsZA1R64xBR4IvVdqrendMLFl9cUOnTnXelKSK2wqFLRuTRP3otLZmHR2Gnhxx6ESh6GrcvyMMGnNhTilazQBecNHKPKl9xugWUK0rb/tp9hZnEubijXQbPOgZikL2ET9h0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ynVvAH/Q69mfuZ1IsXuHUq394SixNhVZxrWEg/zNTrqJIHsQH+f7wsPB15haW4ssTvgept6yqvsoc8lS82nFy8GinKDDVAiv1P7+AJLkD9AtmsC6G5fXgPOgHL7CGru0qd37Ww7zjxc5BVRprJ/0/Htm07hkT8KiwlpLkjVE+lE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQHZyFMFzQDKFBSHYFxTdqRjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQQBOAEgAVABSAEEATgBcAFUAcwBlAHIwHhcNMTcwNDEzMDExNzQ2WhcNMTgwNDEzMDcxNzQ2WjAjMSEwHwYDVQQDHhgAQQBOAEgAVABSAEEATgBcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMp1bwB/0OvZn7mdSLF7h1Kt/eEosTYVWca1hIP8zU66iSB7EB/n+8LDwdeYWluLLE74Hqbesqr7KHPJUvNpxcvBopygw1QIr9T+/gCS5A/QLZrAuhuX14DzoBy+whq7tKnd+1sO848XOQVUaayf9Px7ZtO4ZE/CosJaS5I1RPpRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcoBl1q/wme142hCSCofAbSBqw8hppE6TwmEQqoG1XL6UaIVWxyOAxQ8PAj/mD1ZyDnBpnICJkZvH2AXcJM+wNXMjxX17bor8KocIZzyMWTqKsGM2b2NeANSyp7p0Ee9aKkTYYkEjBbkj2/Wg4gnzW+HmWWTLlu27EfTNALeOhvY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

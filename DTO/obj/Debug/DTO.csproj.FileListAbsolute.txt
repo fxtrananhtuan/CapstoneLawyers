@@ -1,0 +1,7 @@
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\bin\Debug\DTO.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\bin\Debug\DTO.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\obj\Debug\DTO.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\obj\Debug\DTO.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\bin\Debug\DTO.dll.CodeAnalysisLog.xml
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\bin\Debug\DTO.dll.lastcodeanalysissucceeded
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache

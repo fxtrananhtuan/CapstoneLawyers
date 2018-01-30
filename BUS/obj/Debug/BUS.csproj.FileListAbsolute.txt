@@ -1,0 +1,11 @@
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\BUS.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\BUS.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\DAO.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\DTO.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\MySql.Data.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\DAO.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\DTO.pdb
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\bin\Debug\MySql.Data.xml
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\obj\Debug\BUS.dll
+C:\Users\User\documents\visual studio 2015\Projects\CapstoneLawyers\BUS\obj\Debug\BUS.pdb

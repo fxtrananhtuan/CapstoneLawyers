@@ -1,0 +1,4 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DTO\bin\Release\DTO.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DTO\bin\Release\DTO.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DTO\obj\Release\DTO.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\CapstoneLawyers\DTO\obj\Release\DTO.pdb
